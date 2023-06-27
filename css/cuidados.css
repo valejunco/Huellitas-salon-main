@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Oswald&family=Poppins:ital,wght@0,300;0,400;1,300&family=Ubuntu:ital@1&display=swap');
+
+*
+{
+  font-family: 'Poppins', sans-serif;
+}
+.body
+{
+  background-image: url('../img/cuidados/fondo_cuidados.jpg');
+}
+
+.button 
+{
+	text-align: left;
+	padding: 0.25em 1em;
+	background-color: #0e0707;
+	border-radius: 2rem;
+	color: rgb(233, 223, 223);
+	font-size: 1rem;
+	font-weight: 700;
+	text-decoration: solid;
+	margin: 1.5cm;
+  position: absolute;
+}
+
+.swiper
+{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1000px;
+  height: 700px;
+  background-color: #e8daef;
+} 

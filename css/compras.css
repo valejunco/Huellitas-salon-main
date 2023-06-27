@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Oswald&family=Poppins:ital,wght@0,300;0,400;1,300&family=Ubuntu:ital@1&display=swap');
+
+*
+{
+    font-family: 'Poppins', sans-serif;
+    
+}
+.body{
+    background: url(../img/fondoderegistro.jpg) no-repeat;
+}
+
+.button 
+{
+	text-align: left;
+	padding: 0.25em 1em;
+	background-color: #0e0707;
+	border-radius: 2rem;
+	color: rgb(233, 223, 223);
+	font-size: 1rem;
+	font-weight: 700;
+	text-decoration: solid;
+	margin: 0.5cm;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.formas-pagos{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 100pv;
+}
+.container--pagos{
+    position: relative;
+}
+.meto-pagos {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    text-align: center;
+	padding: 0.30em 3em;
+	background-color: #61025f;
+	border-radius: 2rem;
+	color: rgb(233, 223, 223);
+	font-size: 25px;
+	font-weight: 400;
+	text-decoration: solid;
+	margin: 0.5cm;
+}
+
+.btn-whatsapp{
+    position: absolute;
+    bottom: 0;
+    right:0;
+    transform: translate(-11%, -6%);
+    display: flex;
+    justify-content:left ;
+}
+.btn-whatsapp:before,
+.btn-whatsapp:after{
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left: 1px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #00e676;
+    opacity: 0;
+    animation: onda 1.7s infinite;
+}
+.btn-whatsapp:before {
+    animation-delay: 1s;
+}
+
+.btn-whatsapp:after {
+    animation-delay: 1.3s;
+}
+
+.btn-whatsapp img {
+    position: relative;
+    z-index: 2;
+}
+@keyframes onda {
+    0%{
+        transform: scale(1);
+    }
+    15%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: scale(2.5);
+    }
+}

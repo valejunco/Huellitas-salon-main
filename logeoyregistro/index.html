@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Inicio de sesión</title>
+  <link rel="stylesheet" href="../css/loginyregistro.css"/>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'/>
+  <link rel="icon" href="../img/favicon.ico" type="image/x-icon"/>
+  <style>
+    /* Estilos para el mensaje */
+    .mensaje-container {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #f0f0f0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header class="header"> 
+    <nav class="navbar">
+      <a href="../index.html">Inicio</a>
+      <a href="https://www.google.com/maps/place/La+Morera+500,+Surquillo+15038/@-12.1188598,-76.9996763,88m/data=!3m1!1e3!4m6!3m5!1s0x9105c7faa3139749:0x72e56aec2be9f963!8m2!3d-12.1187668!4d-76.9994743!16s%2Fg%2F11j37d764s?entry=ttu" target="_blank">Ubícanos</a>
+      <a href="../servicios/index.html">Servicios</a>
+      <a href="../contacto/index.html">Contacto</a>
+    </nav>
+  </header>
+
+  <div class="background"></div>
+  <div class="container">
+      <div class="content">
+        <img src="../img/Logo2sinfondo.png" alt="" class="imagen-about-us">
+
+      <div class="text-sci">
+        <h2>Bienvenido!<br><span>A nuestra web de peluquería canina.</span></h2>
+        <p>Compartimos tu amor por ellos, visítanos y mantengamos huellitas sanas</p>
+        <div class="social-icons">
+          <a href="#"><i class='bx bxl-facebook' ></i></a>
+          <a href="https://www.instagram.com/huellitas.salon/?igshid=NGExMmI2YTkyZg%3D%3D" target="_blank"><i class='bx bxl-instagram'></i></a>
+          <a href="#"><i class='bx bxl-twitter' ></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="logreg-box">
+      <div class="form-box login">
+        <form action="#">
+          <h2>Inicia sesión</h2>
+
+          <div class="input-box">
+            <span class="icon"><i class='bx bxs-envelope' ></i></span>
+            <input type="email" id="correo" required>
+            <label>Correo electrónico</label>
+          </div>
+
+          <div class="input-box">
+            <span class="icon"><i class='bx bxs-lock'></i></span>
+            <input type="password" id="contraseña" required>
+            <label>Contraseña</label>
+          </div>
+
+          <div class="remember-forgot">
+            <label><input type="checkbox">Recuérdame</label>
+            <a href="#">Olvidé mi contraseña</a>
+          </div>
+      <button type="submit" class="btn" id="btnMostrar">Iniciar sesión</a></button>
+
+      <div class="login-register">
+        <p>¿No tienes una cuenta? <a href="#" class="register-link">Regístrate</a></p>
+      </div>
+    </form>
+    </div>
+
+    <div class="form-box register">
+      <form action="#">
+        <h2>Regístrate</h2>
+
+        <div class="input-box">
+          <span class="icon"><i class='bx bxs-user'></i></span>
+          <input type="text" required>
+          <label>Nombre</label>
+        </div>
+
+        <div class="input-box">
+          <span class="icon"><i class='bx bxs-envelope' ></i></span>
+          <input type="email" required>
+          <label>Correo electrónico</label>
+        </div>
+
+        <div class="input-box">
+          <span class="icon"><i class='bx bxs-lock'></i></span>
+          <input type="password" required>
+          <label>Contraseña</label>
+        </div>
+
+        <div class="remember-forgot">
+          <label><input type="checkbox">Estoy de acuerdo con los <a href="#">"TÉRMINOS Y CONDICIONES".</a></label>
+        </div>
+    <button type="submit" class="btn">Regístrate</button>
+
+    <div class="login-register">
+      <p>¿Ya tienes una cuenta? <a href="#" class="login-link">Inicia sesión</a></p>
+    </div>
+  </form>
+  </div>
+  </div>
+
+  <script src="../js/logeoyregistro.js"></script>
+</body>
+
+</html>

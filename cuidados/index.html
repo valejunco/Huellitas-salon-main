@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Cuidados</title>
+    <link rel="stylesheet" href="./css/Cuidados.css">
+    <link rel="icon" href="../img/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../css/cuidados.css"/>
+</head>
+
+<body class="body">
+    <header class="header">
+        <nav class="navbar">
+            <a class="button" href="../index.html">Inicio</a>
+      </header>
+    <main>
+        
+        <section><!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <article class="articulo">
+                        <div class="container g-layout g-layout--1-1 g-layout--center">
+                            <div>
+                                <div class="card__body">
+                                    <h1 class="card__title">Tipos de Cuidados para tu  <span class="color-primary">Mascota</span></h1></div>
+                                    <p class="card__text">
+                                        Alimentación de calidad. Elegir un pienso nutritivo y darles una buena
+                                        hidratación es clave para el bienestar de los perros, educación animal,
+                                        higiene del perro, paseos y actividad física, atención y cuidados veterinarios.
+                                    </p>
+                                    <img  class="imagen" src="../img/cuidados/tipos_de_cuidado_animal.png" >
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="swiper-slide">
+                    <h1>Alimentacion <span>calidad</span> </h1>
+                    <p>Los mejores alimentos para perros son el arroz, las carnes y los pescados y de frutas el
+                        plátano, el melón, la pera y la manzana. En cuanto a las verduras las opciones preferentes
+                        son las espinacas, la zanahoria y la lechuga. </p>
+                        <img  class="imagen" src="../img/cuidados/alimentacion_animal.png" >
+                </div>
+
+                <div class="swiper-slide">
+                    <h1>Educacion <span> animal </span> </h1>
+                    <p>La Educación Asistida con Animales (EAA) es una disciplina relativamente nueva, consistente
+                        en mejorar o facilitar el aprendizaje de los estudiantes mediante la inclusión de animales
+                        en la práctica educativa.</p>
+                        <img class="imagen" src="../img/cuidados/educacion_animal.png">
+                </div>
+
+                <div class="swiper-slide">
+                    <h1>Higiene del <span>perro</span> </h1>
+                    <p>Otros hábitos higiénicos para tu mascota además del baño
+                        Además de limpiar la piel y pelaje de tu perro o gato,
+                        para higienizar a tu mascota de forma más completa,
+                        te recomendamos adoptar mayores hábitos de limpieza como:
+                        Cepillado de pelo constante y frecuente.
+                        
+                        <img class="imagen" src="../img/cuidados/higiene_de_mascotas.png">
+                </div>
+
+                <div class="swiper-slide">
+                    <h1>Aseo para tu <span> mascota </span> </h1>
+                    <p> La higiene, el cuidado de animales domésticos y sobre todo el cuidado de las mascotas, es de
+                        suma importancia en la medida que previenen muchas enfermedades e infecciones, se evitan
+                        olores desagradables, propagación de parásitos, etc.</p>
+                        
+                        <img class="imagen" src="../img/cuidados/aseo_animal.png">
+                </div>
+
+                <div class="swiper-slide">
+                    
+                    <h1>Actvidad <span> fisica canina</span> </h1>
+                    <p> Los animales pueden ser tratados como sistemas abiertos que intercambian materia y energía
+                        con su entorno y que ejercen un cierto control sobre esos intercambios. Agua, sales,
+                        elementos estructurales, energía química, oxígeno, calor, así como los restos químicos de
+                        sus actividades</p>
+                        
+                        <img class="imagen" src="../img/cuidados/actividad_animal.png">
+                </div>
+
+                    ...
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+        
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+        
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>const swiper = new Swiper('.swiper', {
+            // Optional parameters
+            direction: 'vertical',
+            loop: true,
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            // And if we need scrollbar
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
+        });
+    </script>
+</body>
+</html>
